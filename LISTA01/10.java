@@ -4,7 +4,7 @@
  class Jogo {
     public static void main(String[] args) {
         int min = 1;
-		int max = 10;
+		int max = 100;
         Scanner Entrada = new Scanner(System.in);
         Random random = new Random();
         int valor = random.nextInt((max + min)+1) + min;    

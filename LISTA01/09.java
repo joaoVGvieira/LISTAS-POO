@@ -20,7 +20,7 @@ class Calculadora {
             System.out.printf("RESPOSTA :%.2f\n",conta); 
         }else if (output[0].equals("SUBTRAI") ) {
             conta = Float.parseFloat(output[1]) - Float.parseFloat(output[3]);
-            System.out.printf("RESPOSTA :%.2f\n",conta); 
+            System.out.printf("RESPOSTA: %.2f\n",conta); 
         }else{
             System.out.println("OPÇAO INVALIDA!!!");
         }

@@ -6,6 +6,10 @@ class Numeros {
         Scanner Entrada = new Scanner(System.in);
         System.out.print("Digite o valor N para ser lidos N numeros: ");
         N = Entrada.nextInt();
+        if (N >= 1000 || N <= 0) {
+            System.out.println("Numero N invalido!!!");
+            System.exit(1);
+        }
         for (int i = 0; i < N; i++) {
             System.out.print("Digite o numero:");
             numeros = Entrada.nextInt();
