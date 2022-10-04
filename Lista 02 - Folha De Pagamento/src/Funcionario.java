@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Funcionario {
+
+
     String nome;
     String Data_Nascimento;
     String Tipo_contrato;
